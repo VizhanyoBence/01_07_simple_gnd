@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 100px 200px;
+    gap: 10px;
+}
+.grid-item{
+    background-color: lightblue;
+    font-size: 25px;
+    border: 1px, solid, blue;
+}
